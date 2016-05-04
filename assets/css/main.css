@@ -1797,7 +1797,7 @@
 	header p {
 		margin: 0 0 1.5em 0;
 		position: relative;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 	header h2 + p {
@@ -3675,6 +3675,10 @@
 			display: inline-block;
 			margin-right: 1.25em;
 			text-decoration: none;
+		}
+		
+		#header.single a{
+			color:#23222d
 		}
 
 			#header a[href="#nav"] {
